@@ -32,6 +32,6 @@ function fiboEvenSum(n) {
     console.log(series)
     console.log(sum)
 
-    return true;
+    return sum;
 }
 fiboEvenSum(1000)
