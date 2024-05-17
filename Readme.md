@@ -72,27 +72,14 @@ What is the largest prime factor of the given number?
 
 ##### fiboEvenSum(4000000) should return 4613732.
 
-### [Problem 3: Largest prime factor](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-3-largest-prime-factor)
+### [Problem 4: Largest palindrome product](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-4-largest-palindrome-product)
 
-The prime factors of 13195 are 5, 7, 13 and 29.
-What is the largest prime factor of the given number?
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
-#### largestPrimeFactor(2) should return a number.
+Find the largest palindrome made from the product of two n-digit numbers.
 
-#### largestPrimeFactor(2) should return 2.
+#### largestPalindromeProduct(2) should return a number.
 
-#### largestPrimeFactor(3) should return 3.
+#### largestPalindromeProduct(2) should return 9009.
 
-##### largestPrimeFactor(5) should return 5.
-
-##### largestPrimeFactor(7) should return 7.
-
-##### largestPrimeFactor(8) should return 2.
-
-##### largestPrimeFactor(13195) should return 29.
-
-##### largestPrimeFactor(600851475143) should return 6857.
-
-##### fiboEvenSum(100000) should return 60696.
-
-##### fiboEvenSum(4000000) should return 4613732.
+#### largestPalindromeProduct(3) should return 906609.
