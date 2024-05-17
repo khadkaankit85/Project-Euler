@@ -7,7 +7,7 @@ function largestPrimeFactor(number) {
             number /= 2
         }
         // then we divide by odd numbers greater than three until that is divisible and so on because we already divided it by two
-        for (let i = 3; i < Math.sqrt(number); i += 2) {
+        for (let i = 3; i <= Math.sqrt(number); i += 2) {
             while (number % i == 0) {
                 largestPrimeFactor = i
                 number /= i
@@ -19,17 +19,18 @@ function largestPrimeFactor(number) {
         if (number > 2) {
             largestPrimeFactor = number;
         }
-        console.log(largestPrimeFactor)
+
+        return largestPrimeFactor
 
 
     }
-    getPrimeFactor(number)
 
 
 
 
 
-    return true;
+
+    return getPrimeFactor(number);
 }
 
 largestPrimeFactor(600851475143
