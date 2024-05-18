@@ -34,7 +34,7 @@ function largestPalindromeProduct(n) {
     console.log("Max palindrom number is ", maxPalindromeNumber)
 
 
-    return true;
+    return maxPalindromeNumber;
 }
 
 largestPalindromeProduct(3);
