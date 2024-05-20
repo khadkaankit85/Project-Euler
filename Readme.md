@@ -140,7 +140,7 @@ What is the nth prime number?
 
 #### nthPrime(10001) should return 104743.
 
-### [Problem 7: 10001st prime](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-8-largest-product-in-a-series)
+### [Problem 8: Largest Product in a series](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-8-largest-product-in-a-series)
 
 The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
 
@@ -172,3 +172,20 @@ The four adjacent digits in the 1000-digit number that have the greatest product
 #### largestProductinaSeries(4) should return 5832.
 
 #### largestProductinaSeries(13) should return 23514624000.
+
+### [Problem 9: Special Pythagorean triplet](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-9-special-pythagorean-triplet)
+
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+
+a2 + b2 = c2
+For example, 32 + 42 = 9 + 16 = 25 = 52.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc such that a + b + c = n.
+
+#### specialPythagoreanTriplet(24) should return a number.
+
+#### specialPythagoreanTriplet(24) should return 480.
+
+#### specialPythagoreanTriplet(120) should return 49920, 55080 or 60000.
+
+#### specialPythagoreanTriplet(1000) should return 31875000.
