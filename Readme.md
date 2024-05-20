@@ -188,4 +188,18 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find th
 
 #### specialPythagoreanTriplet(120) should return 49920, 55080 or 60000.
 
-#### specialPythagoreanTriplet(1000) should return 31875000.
+### [Problem 10: Summation of primes](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-10-summation-of-primes)
+
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below n.
+
+#### primeSummation(17) should return a number.
+
+#### primeSummation(17) should return 41.
+
+#### primeSummation(2001) should return 277050.
+
+#### primeSummation(140759) should return 873608362.
+
+#### primeSummation(2000000) should return 142913828922.
