@@ -298,3 +298,16 @@ Note: Once the chain starts the terms are allowed to go above limit.
 #### longestCollatzSequence(54512) should return 52527.
 
 #### longestCollatzSequence(1000000) should return 837799.
+
+### [Problem 15: Lattice paths](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-15-lattice-paths)
+
+Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.
+
+a diagram of 6 2 by 2 grids showing all the routes to the bottom right corner
+How many such routes are there through a given gridSize?
+
+#### latticePaths(4) should return 70.
+
+#### latticePaths(9) should return 48620.
+
+#### latticePaths(20) should return 137846528820.
