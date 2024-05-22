@@ -6,6 +6,8 @@
 function factorialOf(n) {
     if (n == 1) return 1
     else return n * factorialOf(n - 1)
+    //time complexity of this function O(n!)
+
 }
 function latticePaths(gridSize) {
     let numberOfWays = factorialOf(2 * gridSize) / (factorialOf(gridSize) * factorialOf(gridSize))

@@ -311,3 +311,15 @@ How many such routes are there through a given gridSize?
 #### latticePaths(9) should return 48620.
 
 #### latticePaths(20) should return 137846528820.
+
+### [Problem 16: Power digit sum](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-16-power-digit-sum)
+
+215 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+
+What is the sum of the digits of the number 2exponent?
+
+#### powerDigitSum(15) should return 26.
+
+#### powerDigitSum(128) should return 166.
+
+#### powerDigitSum(1000) should return 1366.
