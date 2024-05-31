@@ -488,7 +488,7 @@ What is the nth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 
 
 #### lexicographicPermutations(999999) should return 2783915460.
 
-### [Problem 24: Lexicographic permutations](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-25-1000-digit-fibonacci-number)
+### [Problem 25: 1000 Digit Fibonacci Number](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-25-1000-digit-fibonacci-number)
 
 The Fibonacci sequence is defined by the recurrence relation:
 
@@ -513,8 +513,33 @@ What is the index of the first term in the Fibonacci sequence to contain n digit
 
 #### digitFibonacci(5) should return 21.
 
-#### Waiting:digitFibonacci(10) should return 45.
+#### digitFibonacci(10) should return 45.
 
 #### digitFibonacci(15) should return 69.
 
 #### digitFibonacci(20) should return 93.
+
+### [Problem 26: Reciprocal cycles](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-26-reciprocal-cycles)
+
+TA unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators 2 to 10 are given:
+
+1/2 = 0.5
+1/3 = 0.(3)
+1/4 = 0.25
+1/5 = 0.2
+1/6 = 0.1(6)
+1/7 = 0.(142857)
+1/8 = 0.125
+1/9 = 0.(1)
+1/10 = 0.1
+Where 0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be seen that 1/7 has a 6-digit recurring cycle.
+
+Find the value of d < n for which 1/d contains the longest recurring cycle in its decimal fraction part.
+
+#### reciprocalCycles(700) should return 659.
+
+#### reciprocalCycles(800) should return 743.
+
+#### reciprocalCycles(900) should return 887.
+
+#### reciprocalCycles(1000) should return 983.
