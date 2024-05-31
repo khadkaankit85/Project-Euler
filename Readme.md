@@ -487,3 +487,34 @@ What is the nth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 
 #### lexicographicPermutations(900000) should return 2537014689.
 
 #### lexicographicPermutations(999999) should return 2783915460.
+
+### [Problem 24: Lexicographic permutations](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-25-1000-digit-fibonacci-number)
+
+The Fibonacci sequence is defined by the recurrence relation:
+
+Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
+Hence the first 12 terms will be:
+
+F1 = 1
+F2 = 1
+F3 = 2
+F4 = 3
+F5 = 5
+F6 = 8
+F7 = 13
+F8 = 21
+F9 = 34
+F10 = 55
+F11 = 89
+F12 = 144
+The 12th term, F12, is the first term to contain three digits.
+
+What is the index of the first term in the Fibonacci sequence to contain n digits?
+
+#### digitFibonacci(5) should return 21.
+
+#### Waiting:digitFibonacci(10) should return 45.
+
+#### digitFibonacci(15) should return 69.
+
+#### digitFibonacci(20) should return 93.
