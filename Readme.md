@@ -628,3 +628,24 @@ for 2 ≤ a ≤ n and 2 ≤ b ≤ n?
 #### distinctPowers(25) should return 519.
 
 #### distinctPowers(30) should return 755.
+
+### [Problem 30: Digit n powers](hhttps://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-30-digit-n-powers)
+
+Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
+
+1634 = 14 + 64 + 34 + 44
+8208 = 84 + 24 + 04 + 84
+9474 = 94 + 44 + 74 + 44
+As 1 = 14 is not a sum it is not included.
+
+The sum of these numbers is 1634 + 8208 + 9474 = 19316.
+
+Find the sum of all the numbers that can be written as the sum of n powers of their digits.
+
+#### digitnPowers(2) should return 0.
+
+#### digitnPowers(3) should return 1301.
+
+#### digitnPowers(4) should return 19316.
+
+#### digitnPowers(5) should return 443839.
