@@ -649,3 +649,21 @@ Find the sum of all the numbers that can be written as the sum of n powers of th
 #### digitnPowers(4) should return 19316.
 
 #### digitnPowers(5) should return 443839.
+
+### [Problem 31: Coin sums](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-31-coin-sums)
+
+In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
+
+1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p).
+It is possible to make £2 in the following way:
+
+1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
+How many different ways can n pence be made using any number of coins?
+
+#### coinSums(50) should return 451.
+
+#### coinSums(100) should return 4563.
+
+#### coinSums(150) should return 21873.
+
+#### coinSums(200) should return 73682.
