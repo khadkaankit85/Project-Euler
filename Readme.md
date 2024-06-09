@@ -707,3 +707,27 @@ Find the numbers and the sum of the numbers which are equal to the sum of the fa
 Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 
 #### digitFactorial() should return { sum: 40730, numbers: [145, 40585] }.
+
+### [Problem 35: Circular primes](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-35-circular-primes)
+
+The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+
+There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
+
+How many circular primes are there below n, whereas 100 ≤ n ≤ 1000000?
+
+```
+Note:
+
+Circular primes individual rotation can exceed n.
+```
+
+#### circularPrimes(100) should return 13.
+
+#### circularPrimes(100000) should return 43.
+
+#### circularPrimes(250000) should return 45.
+
+#### circularPrimes(500000) should return 49.
+
+#### circularPrimes(1000000) should return 55.
