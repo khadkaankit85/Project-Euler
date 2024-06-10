@@ -747,3 +747,19 @@ Find the sum of all numbers, less than n, whereas 1000 ≤ n ≤ 1000000, which 
 #### doubleBasePalindromes(500000) should return 286602.
 
 #### doubleBasePalindromes(1000000) should return 872187.
+
+### [Problem 37: Truncatable primes](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-37-truncatable-primes)
+
+The number 3797 has an interesting property. Being prime itself, it is possible to continuously remove digits from left to right, and remain prime at each stage: 3797, 797, 97, and 7. Similarly we can work from right to left: 3797, 379, 37, and 3.
+
+Find the sum of the only n (8 ≤ n ≤ 11) primes that are both truncatable from left to right and right to left.
+
+NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
+
+#### truncatablePrimes(8) should return 1986.
+
+#### truncatablePrimes(9) should return 5123.
+
+#### truncatablePrimes(10) should return 8920.
+
+#### truncatablePrimes(11) should return 748317.
