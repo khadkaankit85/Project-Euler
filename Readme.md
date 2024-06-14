@@ -763,3 +763,19 @@ NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 #### truncatablePrimes(10) should return 8920.
 
 #### truncatablePrimes(11) should return 748317.
+
+### [Problem 38: Pandigital multiples](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-38-pandigital-multiples)
+
+Take the number 192 and multiply it by each of 1, 2, and 3:
+
+192×1=192192×2=384192×3=576
+
+By concatenating each product we get the 1 to 9 pandigital, 192384576. We will call 192384576 the concatenated product of 192 and (1, 2, 3).
+
+The same can be achieved by starting with 9 and multiplying by 1, 2, 3, 4, and 5, giving the pandigital, 918273645, which is the concatenated product of 9 and (1, 2, 3, 4, 5).
+
+What is the largest 1 to k pandigital k-digit number that can be formed as the concatenated product of an integer with (1, 2, ..., n) where n > 1?
+
+#### pandigitalMultiples(8) should return 78156234.
+
+#### Waiting:pandigitalMultiples(9) should return 932718654.
