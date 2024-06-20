@@ -779,3 +779,15 @@ What is the largest 1 to k pandigital k-digit number that can be formed as the c
 #### pandigitalMultiples(8) should return 78156234.
 
 #### Waiting:pandigitalMultiples(9) should return 932718654.
+
+### [Problem 39: Integer right triangles](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-39-integer-right-triangles)
+
+If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.
+
+{20,48,52}, {24,45,51}, {30,40,50}
+
+For which value of p ≤ n, is the number of solutions maximized?
+
+#### intRightTriangles(500) should return 420.
+
+#### intRightTriangles(800) should return 720.
