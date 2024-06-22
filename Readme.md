@@ -791,3 +791,19 @@ For which value of p ≤ n, is the number of solutions maximized?
 #### intRightTriangles(500) should return 420.
 
 #### intRightTriangles(800) should return 720.
+
+### [Problem 40: Champernowne's constant](https://www.freecodecamp.org/learn/project-euler/project-euler-problems-1-to-100/problem-40-champernownes-constant)
+
+An irrational decimal fraction is created by concatenating the positive integers:
+
+0.123456789101112131415161718192021...
+
+It can be seen that the 12th digit of the fractional part is 1.
+
+If dn represents the nth digit of the fractional part, find the value of the following expression.
+
+d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000
+
+#### champernownesConstant(100) should return 5.
+
+#### champernownesConstant(1000000) should return 210.
