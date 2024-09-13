@@ -11,7 +11,16 @@ function codedTriangleNumbers(n) {
 
 
 
-    return 1;
+    const triangleNumbers = [];
+    let i = 1;
+    while (triangleNumbers.length < n) {
+        const triangleNumber = (i * (i + 1)) / 2;
+        if (wordToNumber(words[triangleNumber - 1]) === triangleNumber) {
+            triangleNumbers.push(triangleNumber);
+        }
+        i++;
+    }
+    return triangleNumbers;
 }
 
 
